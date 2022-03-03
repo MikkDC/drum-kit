@@ -1,9 +1,4 @@
-// assign each sound to a key
-// kick, snare, openhihat, hihat, ride, tink, tom, boom, clap
-
 // creating the variables for button clicks
-const button = document.querySelector("button");
-
 const kickBtn = document.getElementById("kickBtn");
 const snareBtn = document.getElementById("snareBtn");
 const ohatBtn = document.getElementById("ohatBtn");
@@ -65,7 +60,7 @@ document.addEventListener("keydown", (evt) => {
 	}
 });
 
-// kick, snare, openhihat, hihat, ride, tink, tom, boom, clap
+
 kickBtn.addEventListener("click", () => {
 	kickSound.src = "wavs/kick.wav";
 });
